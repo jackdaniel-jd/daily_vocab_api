@@ -19,6 +19,9 @@ CREATE TABLE IF NOT EXISTS practice_sessions (
 
 -- Example data
 INSERT INTO words (word, definition, difficulty_level) VALUES
+('city', 'A large town', 'Beginner'),
+('school', 'An institution for educating children', 'Beginner'),
+('university', 'An institution of higher learning', 'Intermediate'),
 ('apple', 'A round fruit with red, green, or yellow skin', 'Beginner'),
 ('ambitious', 'Having a strong desire to succeed', 'Intermediate'),
 ('perseverance', 'Continued effort despite difficulties', 'Advanced'),
